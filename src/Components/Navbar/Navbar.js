@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { MenuItems } from "./MenuItems"
 
 class Navbar extends Component {
     render() {
@@ -15,3 +16,5 @@ class Navbar extends Component {
         )
     }
 }
+
+export default Navbar
